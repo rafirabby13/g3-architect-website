@@ -45,6 +45,15 @@ main{
 main > section{
 margin-top: 130px;
 }
+.feature-puchka-title{
+    color: #131313;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+
+
+
 /* header styles */
 
 /* navbar style */
@@ -105,7 +114,48 @@ margin-top: 130px;
 .feature-text{
     color: #FF900E;
 }
+/* feature u will enjoy and love style section
+*/
+.features-container{
+    
+    gap: 140px;
+    align-items: center;
+}
 
+.features-container img{
+    /* width: 800px; */
+    width: 100%;
+    
+
+}
+.feature-title{
+    border-left: 5px solid #FF900E;
+    padding-left: 21px;
+}
+.feature-card{
+    padding: 30px 42px 30px 30px;
+    box-shadow: 2px 2px 12px  gray;
+    border-radius: 8px;
+    margin-bottom: 20px;
+
+}
+.experience{
+    position: relative;
+    bottom: 130px;
+    right: 92px;
+}
+#experience-badge{
+    padding: 45px 42px;
+}
+
+#experience-year{
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 4rem;
+   
+
+
+}
 /* facts and feature section style */
 .facts-container{
  display: grid;
@@ -152,4 +202,17 @@ margin-top: 130px;
 .sponsor-companies img{
     -webkit-filter: grayscale(100%);  
                 filter: grayscale(100%);  
+}
+
+.footer{
+    width: 1440px;
+    padding: 45px 0px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 130px;
+    border-radius: 8px;
+}
+
+.footer-text{
+font-size: 1.25rem;
 }
