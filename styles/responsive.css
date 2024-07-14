@@ -1,6 +1,36 @@
 @media screen and (max-width: 576px) {
     
-    .navbar, .nav-links {
+    .navbar,
+     .nav-links ,
+     .teams{
         flex-direction: column;
     }
+    .team-image-container{
+        
+        grid-template-columns: repeat(1,1fr);
+        
+    }
+    .our-features{
+        text-align: center;
+         margin-left: 0px;
+     }
+}
+
+/* medium device er jnno */
+
+@media screen and (min-width: 576px) and (max-width: 992px){
+    
+    
+     .teams{
+        flex-direction: column;
+    }
+    .team-image-container{
+        
+        grid-template-columns: repeat(2,1fr);
+        
+    }
+    .our-features{
+        text-align: center;
+         margin-left: 0px;
+     }
 }
